@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "market-data-quality-pipeline"
+version = "0.1.0"
+description = "Point-in-time-safe market data quality and evidence extraction prototype"
+requires-python = ">=3.10"
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+[project.scripts]
+market-pipeline = "market_pipeline.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
