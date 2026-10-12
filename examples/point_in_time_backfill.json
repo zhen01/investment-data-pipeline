@@ -1,0 +1,5 @@
+{
+  "bars": [{"ticker":"OLD", "exchange":"XNYS", "date":"2026-01-02", "open":"100", "high":"110", "low":"90", "close":"102", "volume":"200", "available_at":"2026-01-03T12:00:00Z", "adjustment_basis":"raw"}],
+  "aliases": [{"security_id":"SEC-EXAMPLE", "ticker":"OLD", "exchange":"XNYS", "valid_from":"2020-01-01", "valid_to":"2026-02-01", "known_at":"2020-01-02T00:00:00Z", "source":"synthetic"}, {"security_id":"SEC-EXAMPLE", "ticker":"NEW", "exchange":"XNYS", "valid_from":"2026-02-01", "valid_to":null, "known_at":"2026-01-25T00:00:00Z", "source":"synthetic"}],
+  "splits": [{"security_id":"SEC-EXAMPLE", "ex_date":"2026-01-15", "new_shares":"4", "old_shares":"1", "known_at":"2026-01-10T00:00:00Z", "source":"synthetic"}]
+}
